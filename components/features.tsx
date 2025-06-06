@@ -5,7 +5,7 @@ import FeaturesImage from "@/public/images/features.png";
 
 export default function Features() {
   return (
-    <section className="relative">
+    <section id="features" className="relative">
       <div
         className="pointer-events-none absolute left-1/2 top-0 -z-10 -mt-20 -translate-x-1/2"
         aria-hidden="true"
@@ -33,19 +33,19 @@ export default function Features() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20">
           {/* Section header */}
-          <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
-            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
-              <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Advanced Controls
+          <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
+            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-[#EF5EA5]/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-[#EF5EA5]/50">
+              <span className="inline-flex bg-linear-to-r from-[#3aa181] to-[#EF5EA5] bg-clip-text text-transparent">
+                Powerful Features
               </span>
             </div>
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Built for modern product teams
+            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),#EF5EA5,var(--color-gray-50),#3aa181,var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+              Simplicity meets power
             </h2>
-            <p className="text-lg text-indigo-200/65">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
+            <p className="text-lg text-[#EF5EA5]/65">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
+              cupidatat.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -61,7 +61,7 @@ export default function Features() {
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#3aa181]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -72,82 +72,80 @@ export default function Features() {
                   d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                 />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Project Milestones
+              <h3 className="mb-1 font-nacelle text-[1.0625rem] font-semibold text-gray-200">
+                Excepteur sint occaecat
               </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-[#EF5EA5]/65">
+                Keep your company's lights on with customizable, iterative, and
+                structured workflows.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-              >
-                <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
-                <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
-              </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Team Views
-              </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
-              </p>
-            </article>
-            <article>
-              <svg
-                className="mb-3 fill-indigo-500"
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-              >
-                <path d="M23.414 6 18 .586 16.586 2l3 3H7a6 6 0 0 0-6 6h2a4 4 0 0 1 4-4h12.586l-3 3L18 11.414 23.414 6Z" />
-                <path
-                  fillOpacity=".48"
-                  d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
-                />
-              </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Advanced Search
-              </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
-              </p>
-            </article>
-            <article>
-              <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#3aa181]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
               >
                 <path
                   fillOpacity=".48"
-                  d="m3.031 9.05-.593-.805 1.609-1.187.594.804a6.966 6.966 0 0 1 0 8.276l-.594.805-1.61-1.188.594-.805a4.966 4.966 0 0 0 0-5.9Z"
+                  d="M8.5 24 0 15.5V8.4L8.5 0l8.4 8.5v7.1L8.5 24Zm0-2.828L14.9 15.1V8.9L8.5 2.828 2.1 8.9v6.2l6.4 6.072Z"
                 />
-                <path d="m7.456 6.676-.535-.845 1.69-1.07.534.844a11.944 11.944 0 0 1 0 12.789l-.535.845-1.69-1.071.536-.845a9.944 9.944 0 0 0 0-10.647Z" />
-                <path
-                  d="m11.888 4.35-.514-.858 1.717-1.027.513.858a16.9 16.9 0 0 1 2.4 8.677 16.9 16.9 0 0 1-2.4 8.676l-.513.859-1.717-1.028.514-.858A14.9 14.9 0 0 0 14.003 12a14.9 14.9 0 0 0-2.115-7.65Z"
-                  opacity=".48"
-                />
-                <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
+                <path d="M8.5 15.5 4.9 11.9l1.4-1.4 2.2 2.1 4.2-4.2 1.4 1.4-5.6 5.7Z" />
               </svg>
-              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Strategic Initiatives
+              <h3 className="mb-1 font-nacelle text-[1.0625rem] font-semibold text-gray-200">
+                Ut enim ad minim
               </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-[#EF5EA5]/65">
+                Keep your company's lights on with customizable, iterative, and
+                structured workflows.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#3aa181]"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+              >
+                <path
+                  fillOpacity=".48"
+                  d="M11 0v24l13-6V6L11 0ZM9 1.2 0 6v12l9 4.8V1.2Z"
+                />
+              </svg>
+              <h3 className="mb-1 font-nacelle text-[1.0625rem] font-semibold text-gray-200">
+                Duis aute irure dolor
+              </h3>
+              <p className="text-[#EF5EA5]/65">
+                Keep your company's lights on with customizable, iterative, and
+                structured workflows.
+              </p>
+            </article>
+            <article>
+              <svg
+                className="mb-3 fill-[#3aa181]"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+              >
+                <path d="M15 8.5c0 .465-.015.928-.043 1.387l-3.833 1.911c-.345.345-.79.631-1.286.83L8.5 9.5 11.043 7A7.46 7.46 0 0 1 15 8.5Z" />
+                <path
+                  fillOpacity=".48"
+                  d="M8.5 24C3.806 24 0 20.194 0 15.5S3.806 7 8.5 7s8.5 3.806 8.5 8.5-3.806 8.5-8.5 8.5Zm0-2c3.59 0 6.5-2.91 6.5-6.5S12.09 9 8.5 9 2 11.91 2 15.5 4.91 22 8.5 22Z"
+                />
+                <path d="M8.5 9.5c-.465 0-.928.015-1.387.043L5.202 6.71A7.46 7.46 0 0 1 8.5 6c.465 0 .928.015 1.387.043L11.798 8.29A7.46 7.46 0 0 0 8.5 9.5Z" />
+              </svg>
+              <h3 className="mb-1 font-nacelle text-[1.0625rem] font-semibold text-gray-200">
+                Reprehenderit in voluptate
+              </h3>
+              <p className="text-[#EF5EA5]/65">
+                Keep your company's lights on with customizable, iterative, and
+                structured workflows.
+              </p>
+            </article>
+            <article>
+              <svg
+                className="mb-3 fill-[#3aa181]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
